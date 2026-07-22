@@ -14,4 +14,5 @@ cat
 
 -Git:
 git clone
+And other commands 
 
