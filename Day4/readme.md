@@ -1,6 +1,7 @@
-#DBTH Near-Live Performance API#
+</> Markdown
+# DBTH Near-Live Performance API
  
-##Introduction##
+## Introduction
  
 This API shows near-live performance for DBTH including current A&E wait times and number of waiters in A&E (both updated hourly).  Also Referral to Treatment average weeks wait, updated daily.  This API would not replace nationally available data, but would instead provide an earlier version of a subset of performance metrics.
 The initial rollout of this API is a FastAPI prototype on  a virtual PC. It will use hard-coded values of sample data only to prove the concept and demonstrate the endpoint.
@@ -12,10 +13,10 @@ ODS Data https://digital.nhs.uk/developer/api-catalogue/organisation-data-servic
 Public Health Data  https://fingertips.phe.org.uk/profile/guidance/supporting-information/ap
 
  
-##Target Users##
+## Target Users
 DBTH operational managers, partner organisations, website developers, dashboard developers, mobile alert app (future development).
  
-##Example Endpoints##
+## Example Endpoints##
 - GET /v1/organisations/RP5/performance/latest
 - GET /v1/organisations/RP5/performance/history/rtt?days=7
 
@@ -27,7 +28,7 @@ http://127.0.0.1:8000/v1/organisations/RP5/performance/history/rtt
 http://127.0.0.1:8000/v1/organisations/RP5/performance/history/rtt?days=7
 
  
-##Product Backlog
+## Product Backlog
 
 - Define API purpose and users
 
