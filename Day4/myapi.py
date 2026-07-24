@@ -32,4 +32,4 @@ def get_book(book_id: int):
     for book in books:
         if book["id"]==book_id:
             return book
-    return {"error": "Book not found"}
+    return {"error": F"Book {book_id} not found"}
