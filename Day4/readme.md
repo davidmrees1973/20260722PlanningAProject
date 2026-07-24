@@ -1,5 +1,5 @@
 </> Markdown
-# DBTH Near-Live Performance API
+# DBTH Near-Live Performance API (Database Verion)
  
 ## Introduction
  
@@ -16,7 +16,7 @@ Public Health Data  https://fingertips.phe.org.uk/profile/guidance/supporting-in
 ## Target Users
 DBTH operational managers, partner organisations, website developers, dashboard developers, mobile alert app (future development).
  
-## Example Endpoints##
+## Example Endpoints
 - GET /v1/organisations/RP5/performance/latest
 - GET /v1/organisations/RP5/performance/history/rtt?days=7
 
@@ -42,3 +42,16 @@ http://127.0.0.1:8000/v1/organisations/RP5/performance/history/rtt?days=7
 
 - Propose additional usage of API e.g. mobile app, dashboards and websites
 
+
+## SWOT
+
+- Strengths:
+
+- Weakness:
+
+- Opportunities:
+
+- Threats: 
+
+
+## High Level Project Project
