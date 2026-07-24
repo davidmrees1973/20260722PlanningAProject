@@ -18,6 +18,14 @@ DBTH operational managers, partner organisations, website developers, dashboard 
 ##Example Endpoints##
 - GET /v1/organisations/RP5/performance/latest
 - GET /v1/organisations/RP5/performance/history/rtt?days=7
+
+
+##Examples URL's for prototype
+
+http://127.0.0.1:8000/v1/organisations/RP5/performance/latest
+http://127.0.0.1:8000/v1/organisations/RP5/performance/history/rtt
+http://127.0.0.1:8000/v1/organisations/RP5/performance/history/rtt?days=7
+
  
 ##Product Backlog
 
